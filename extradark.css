@@ -1,0 +1,1071 @@
+/*
+
+E X T R A D A R K
+HL3 skin by NIGHTSWIMMER
+- modifikace povoleny, ale dejte mi vedet do posty, at mi neprznite dilo :-D
+
+*/
+
+/* HTML TAGS */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    background: #000000;
+    color: #999999;
+    margin: 0;
+    padding: 0;
+
+    scrollbar-face-color: #eeeeee;
+    scrollbar-shadow-color: #5B5B5B;
+    scrollbar-highlight-color: #5B5B5B;
+    scrollbar-3dlight-color: #5B5B5B;
+    scrollbar-darkshadow-color: #d6d6d6;
+    scrollbar-track-color: #5B5B5B;
+    scrollbar-arrow-color: #5B5B5B;
+}
+
+ul {
+}
+
+li {
+}
+
+hr {
+	border-color: #aaaaaa;
+	background: #cccccc;
+}
+
+form {
+}
+
+p {
+}
+
+a {
+	color: #aaaaaa;
+	font-weight: bold;
+}
+
+a:hover, a.hover {
+	color: #cccccc;
+}
+
+a img {
+}
+
+a img:hover, a img.hover {
+}
+
+table, td, th {
+    color: #aaaaaa;
+    font-family: Arial;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+}
+
+.tdl {
+}
+
+.tdr {
+}
+
+table {
+}
+
+/* INPUTY */
+input, select, .nbutton, .button, textarea, .buttonh {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #aaaaaa;
+    background-color: #202020;
+    background-image: url(http://www.ever.cz/temp/outside/hofyland/lista.png);
+    background-repeat: repeat-x;
+    background-position: 0px -17px;
+    border: 1px solid #333333;
+
+}
+.option{
+}
+
+.multisel {
+}
+.listinp {
+}
+select {
+}
+.switch {
+}
+.button, .nbutton, .buttonh {
+	background: trasparent;
+}
+.button:hover, .nbutton:hover, .buttonh {
+	background: trasparent;
+}
+.check, .mcheck, .lcheck, .ncheck {
+	background: transparent;
+}
+pre {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border: 3px solid #707070;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.mcheck {
+}
+.ncheck {
+}
+label {
+}
+.label_h {
+}
+textarea {
+    padding:2px 0px 2px 0px;
+    overflow: auto;
+}
+.w40 {
+}
+.w60 {
+}
+.w100 {
+}
+.w200, .s200 {
+}
+.w300, .n300, .s300 {
+}
+.s300 {
+}
+.w400 {
+}
+.w500 {
+}
+.tfull {
+}
+.ifull {
+}
+.s120 {
+}
+
+.nform {
+}
+
+.nbutton {
+}
+
+/* HLAVNI OKNO LOGIN */
+#login {
+    background-color: transparent;
+}
+#login #top {
+    background-color: transparent;
+}
+.errs, .dberr {
+	color: #ff0000;
+}
+.dberr {
+	color: red;
+}
+#login #main {
+    background: trasparent;
+    min-height: 118px;
+}
+#login #main .linxs {
+}
+#login #bottom {
+}
+#login #bottom .linxs {
+}
+/* LOGIN + REGISTRACE + HESLO */
+#login #main #win, #login #main #reg, #login #main #psw {
+}
+#login #main #win form, #login #main #reg form, #login #main #psw form {
+}
+#login #main #win p, #login #main #reg p, #login #main #psw p {
+}
+#login #main #win .labels, #login #main #reg .labels, #login #main #psw .labels {
+}
+
+/* REGISTRACE + ODESLAT HESLO */
+#login #main #reg, #login #main #psw {
+}
+
+/* MAIN OKNO */
+#mainw {
+	background: transparent;
+}
+
+/* MAIN OKNO - VRSEK */
+#mainw #top, #mainw #topt {
+}
+#mainw #topt {
+}
+#mainw #topm {
+}
+#mainw #top #ico, #mainw #topt #ico {
+    background: transparent;
+}
+#mainw #top #info, #mainw #top #infos, #mainw #topt #info, #mainw #topt #infos, #mainw #topm #info {
+    background: trasparent;
+}
+#mainw #top #info #infouser, #mainw #topt #info #infouser, #mainw #topm #info #infouser {
+     background-color: transparent;
+}
+#mainw #top #ban, #mainw #topt #ban {
+}
+#mainw #topt #ban {
+}
+#mainw #top #fast, #mainw #topt #fast, #mainw #topm #fast {
+	background: trasparent;
+}
+
+/* MAIN OKNO MENU TOP i SPODNI */
+#mainw #winmenu, #mainw #winmenub {
+    background-color: transparent;
+    background-image: url(http://www.ever.cz/temp/outside/hofyland/lista.png);
+    background-position: 0px -16px;
+    background-repeat: repeat-x;
+    font-weight: bold;
+    color: #999999;
+    border-width: 0px;
+    border-bottom: 1px solid #2a2a2a;
+    font-size: 12px;
+    height: 20px;
+    padding: 5px 0px 5px 0px;
+    margin: 0px;
+}
+#mainw #winmenub {
+    border-width: 0px;
+}
+#winmenu .menus, #winmenus .menus:active {
+    background: transparent;
+    color: #aaaaaa;
+    border-width: 0px;
+}
+#winmenu .menus:hover, #winmenu .menusa {
+    color: #cccccc;
+    border-bottom: 2px solid #cccccc;
+    text-decoration: none;
+}
+#winmenub .menus, #winmenusb .menus:active {
+    border: 0px;
+    background: transparent;
+    color: #cccccc;
+}
+#winmenub .menus:hover, #winmenub .menusa {
+    border: 0px;
+    border-top: 2px solid #cccccc;
+    background: transparent;
+    color: #cccccc;
+    text-decoration: none;
+}
+/* Barva polozky v menu POSTA pokud je neco v poste nove */
+.menusmail {
+    color: #ff0000;
+    background-image: url(http://www.ever.cz/temp/outside/hofyland/posta.gif);
+    background-position: 0px 3px;
+    background-repeat: no-repeat;
+    padding-left: 15px;
+}
+.menusmail:hover {
+  color: #cccccc;
+}
+
+/* SUBMENU */
+#mainw #submenu, #mainw #submenub {
+    border-width: 0px;
+    background: #000000;
+    color: #bbbbbb;
+    text-align: center;
+    padding-bottom: 5px;
+}
+#mainw #submenub {
+    border-width: 0px;
+}
+#mainw #submenu .menus, #submenub .menus {
+    color: #999999;
+    background: transparent;
+    font-size: 11px;
+}
+#mainw #submenu .menus:hover, #submenu .menusa {
+	color: #cccccc;
+	background: #222222;
+	-moz-border-radius: 5px;
+	-moz-border-radius-topleft: 0px;
+	-moz-border-radius-topright: 0px;
+}
+#mainw #submenub .menus:hover, #submenub .menusa {
+	color: #cccccc;
+	background: #222222;
+	-moz-border-radius: 5px;
+	-moz-border-radius-bottomleft: 0px;
+	-moz-border-radius-bottomright: 0px;
+}
+
+/* MAIN OKNO SPODEK */
+#mainw #bottom {
+	color: #777777;
+	font-family: Arial;
+	font-size: 11px;
+	font-weight: normal;
+}
+
+/* OKNO PRO INCLUDE */
+#mainw #winmain {
+}
+
+/* OKNO PRO CHYBY A INFORMACE */
+#mainw #winmain .error {
+	border: 1px solid #222222;
+	background: #000000;
+	color: #ff0000;
+	font-family: Arial;
+	font-size: 12px;
+  font-weight: bold;
+}
+
+/* OKNO PRO BANNER */
+#mainw #winmain #oknoban {
+	border: 1px solid #222222;
+	background: #050505;
+    margin: 2px;
+    padding: 3px;
+}
+
+/* JEDNOTLIVA OKNA PRO DATA */
+#mainw #winmain .okno, #mainw #winmain .okno_miho, #login .okno, #login .okno_miho {
+	border: 1px solid #222222;
+	background: #050505;
+	font-family: Arial;
+	font-size: 12px;
+    font-weight: normal;
+    margin: 2px;
+    padding: 3px;
+}
+
+#mainw #winmain .okno_miho .sub_miho, #login .okno_miho .sub_miho {
+}
+
+/* RADEK PRO NADPIS OKNA */
+#mainw #winmain .okno .nadpis, #mainw #winmain .okno_miho .nadpis, #login .okno .nadpis, #login .okno_miho .nadpis {
+    background: #1e1e1e url(http://www.ever.cz/temp/outside/hofyland/lista.png) repeat-x 0px -17px;
+    color: #999999;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+}
+
+/* KATEGORIE V KLUBU KAM KLUB SPADA */
+#mainw #winmain .okno .nadpis .clubkat {
+    color: #777777;
+    font-weight: normal;
+    font-size: 10px;
+}
+#mainw #winmain .clubkat {
+    color: #777777;
+}
+#mainw #winmain .okno .nadpis .clubkat.hover, #mainw #winmain .clubkat:hover {
+    color: #aaaaaa;
+}
+
+/* ROZBALIT V BOOKU */
+.extract {
+  font-weight: normal;
+  color: #888888;
+}
+.extract.hover, .extract:hover {
+  color: #aaaaaa;
+}
+
+/* FORMULAR V RAMCI OKNA */
+#mainw #winmain .okno form, #login .okno form {
+}
+
+/* RUZNE RADKY OKNA */
+#mainw #winmain .okno .rows, #login .okno .rows {
+}
+
+#mainw #winmain .okno .row, #mainw #winmain .okno .rowc, #mainw #winmain .okno .rown, #mainw #winmain .okno .rowe, #mainw #winmain .okno .rowp, #mainw #winmain .okno .rowp_nove, #mainw #winmain .okno .rowp_nahled, #mainw #winmain .okno .rowh, #login .okno .rowc, #login .okno .rowe, #login .okno .rowp {
+}
+
+#mainw #winmain .okno .rowp, #mainw #winmain .okno .rowp_nahled, #mainw #winmain .okno .rowp_nove, #login .okno .rowp {
+  padding: 0px; margin: 0px;
+  background: #111111;
+}
+
+#mainw #winmain .okno .row table, #mainw #winmain .okno .row td, #mainw #winmain .okno .row th, #mainw #winmain .okno .rowp table, #mainw #winmain .okno .rowp td, #mainw #winmain .okno .rowp th, #mainw #winmain .okno .rowp_nahled table, #mainw #winmain .okno .rowp_nahled td, #mainw #winmain .okno .rowp_nahled th, #mainw #winmain .okno .rowp_nove table, #mainw #winmain .okno .rowp_nove td, #mainw #winmain .okno .rowp_nove th, #mainw #winmain .okno .rowh table, #mainw #winmain .okno .rowh td, #mainw #winmain .okno .rowh th {
+}
+
+#mainw #winmain .okno .rowh td, #mainw #winmain .okno .rowh th {
+}
+
+#mainw #winmain .okno .rowh .sekce {
+}
+
+#mainw #winmain .okno .rowh .popis {
+}
+
+#mainw #winmain .okno .row th, #mainw #winmain .okno .rowp th, #mainw #winmain .okno .rowp_nahled th, #mainw #winmain .okno .rowp_nove th {
+}
+
+#mainw #winmain .okno .rowc, #mainw #winmain .okno .rowe, #login .okno .rowc, #login .okno .rowe {
+}
+
+#mainw #winmain .okno .rowe, #login .okno .rowe {
+	color: #aaaaaa;
+}
+
+#mainw #winmain .okno .rown {
+}
+
+#mainw #winmain .okno .row ul, #mainw #winmain .okno .rowp ul, #mainw #winmain .okno .rowp_nove ul, #mainw #winmain .okno .rowp_nahled ul, #mainw #winmain .okno .row .ulip, #mainw #winmain .okno .row .ulres {
+}
+
+#mainw #winmain .okno .row #infoo {
+}
+
+#mainw #winmain .okno .row .ulip {
+}
+
+#mainw #winmain .okno .row .ulres {
+}
+
+#mainw #winmain .okno .row:hover, #mainw #winmain .okno .row.hover, #mainw #winmain .okno .rowp_nahled:hover, #mainw #winmain .okno .rowp_nahled.hover, #mainw #winmain .okno .rowp_nove:hover, #mainw #winmain .okno .rowp_nove.hover, #mainw #winmain .okno .rowp:hover, #mainw #winmain .okno .rowp.hover {
+}
+
+#mainw #winmain .okno .row:hover, #mainw #winmain .okno .row.hover {
+  background: transparent;
+	color: #aaaaaa;
+}
+
+/* FOTOGALERIE A IKONY V BOOKU */
+.for_onlines {
+}
+.for_onlines center {
+}
+.for_onlines .user {
+    background: #111111;
+    border: 1px solid #222222;
+    color: #777777;
+}
+.for_onlines .user p {
+}
+.for_onlines .user img {
+}
+
+.for_galerka {
+}
+.for_galerka .fotka {
+	background: #000000;
+  border: 0px solid;
+}
+.for_galerka .fotka a img {
+  border: 1px solid #aaaaaa;
+}
+.for_galerka .fotka a:hover img {
+  border: 1px solid #aaaaaa;
+}
+
+.for_galerka .hlasy {
+	background: #111111;
+  border: 1px solid #aaaaaa;
+}
+
+.for_galerka .booki {
+	background: #111111;
+  border: 1px solid #aaaaaa;
+}
+.for_galerka .booki a img {
+  border: 1px solid #aaaaaa;
+}
+.for_galerka .booki a:hover img {
+  border: 1px solid #aaaaaa;
+}
+
+/* RUZNE CSS */
+.icoinfo, .icospravce, .icoinfovip {
+	border: 1px solid #aaaaaa;
+}
+.icoinfovip {
+	border-bottom: 1px solid #aaaaaa;
+}
+.photoinfo {
+	border: 1px solid #aaaaaa;
+}
+.icospravce {
+}
+.vipstatus {
+	border: 1px solid #1e1e1e;
+	background: #000000;
+	margin-top: 1px;
+}
+.vipbar {
+	background: url(http://www.ever.cz/temp/outside/hofyland/vipstat.gif) #111111 no-repeat;
+}
+.bar {
+	border: 1px solid #aaaaaa;
+	color: #aaaaaa;
+	font-family: Arial;
+	font-size: 11px;
+}
+.bar .prubeh {
+}
+.charimg {
+	border: 1px solid #aaaaaa;
+}
+.hr {
+	border-color: #555555;
+	background: #111111;
+}
+.dhr {
+  border-bottom: 1px solid #aaaaaa;
+}
+.stext {
+	color: #aaaaaa;
+}
+
+/* Styly pro prispevky */
+#mainw #winmain .okno .rowp .linkpost, #mainw #winmain .okno .rowp_nahled .linkpost, #mainw #winmain .okno .rowp_nove .linkpost, #mainw #winmain .okno .rowp1 .linkpost, #mainw #winmain .okno .rowp2 .linkpost, #mainw #winmain .okno .rowp3 .linkpost, #login .okno .rowp .linkpost {
+    border: 0px none;
+    background: #111111;
+    color: #999999;
+}
+#mainw #winmain .okno .linkpost .reply, #mainw #winmain .okno .linkpost .mail, #mainw #winmain .okno .linkpost .link, #mainw #winmain .okno .linkpost .filtr {
+    font-size: 10px;
+    color: #777777;
+}
+#mainw #winmain .okno .linkpost .reply {
+    color: #aaaaaa;
+}
+#mainw #winmain .okno .rowp .linkpost .linx, #mainw #winmain .okno .rowp_nahled .linkpost .linx, #mainw #winmain .okno .rowp_nove .linkpost .linx, #mainw #winmain .okno .rowp1 .linkpost .linx, #mainw #winmain .okno .rowp2 .linkpost .linx, #mainw #winmain .okno .rowp3 .linkpost .linx, #login .okno .rowp .linkpost .linx {
+    border: 0px none;
+    padding-right: 40px;
+    background: #111111;
+    color: #999999;
+}
+
+#mainw #winmain .okno .rowp .linkpost {
+    border: 0px none; _
+    border-top: 1px solid #111111;
+    background: #050505;
+    color: #999999;
+}
+
+#mainw #winmain .okno .rowp .linkpost .linx {
+    border: 0px none;
+    padding-right: 40px;
+    background: #050505;
+    color: #999999;
+}
+
+#mainw #winmain .okno .rowp .icopost, #mainw #winmain .okno .rowp_nahled .icopost, #mainw #winmain .okno .rowp_nove .icopost, #mainw #winmain .okno .rowp1 .icopost, #mainw #winmain .okno .rowp2 .icopost, #mainw #winmain .okno .rowp3 .icopost, #login .okno .rowp .icopost {
+    border: 0px none;
+    background: #050505;
+    background: #000000;
+    color: #999999;
+}
+
+#mainw #winmain .okno .rowp .txtpost, #mainw #winmain .okno .rowp_nahled .txtpost, #mainw #winmain .okno .rowp_nove .txtpost, #mainw #winmain .okno .rowp1 .txtpost, #mainw #winmain .okno .rowp2 .txtpost, #mainw #winmain .okno .rowp3 .txtpost, #login .okno .rowp .txtpost {
+    border: 0px none;
+    background: #111111;
+    background: #050505;
+    color: #999999;
+}
+#mainw #winmain .okno .rowp .txtpost a, #mainw #winmain .okno .rowp_nahled .txtpost a, #mainw #winmain .okno .rowp_nove .txtpost a, #mainw #winmain .okno .rowp1 .txtpost a, #mainw #winmain .okno .rowp2 .txtpost a, #mainw #winmain .okno .rowp3 .txtpost a, #login .okno .rowp .txtpost a {
+    border: 0px none;
+}
+
+#mainw #winmain .okno .rowp .nickpost, #mainw #winmain .okno .rowp_nahled .nickpost, #mainw #winmain .okno .rowp_nove .nickpost, #mainw #winmain .okno .rowp1 .nickpost, #mainw #winmain .okno .rowp2 .nickpost, #mainw #winmain .okno .rowp3 .nickpost, #login .okno .rowp .nickpost {
+    font-weight: bold;
+    color: #999999;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+#mainw #winmain .okno .rowp .datepost, #mainw #winmain .okno .rowp_nahled .datepost, #mainw #winmain .okno .rowp_nove .datepost, #mainw #winmain .okno .rowp1 .datepost, #mainw #winmain .okno .rowp2 .datepost, #mainw #winmain .okno .rowp3 .datepost, #login .okno .rowp .datepost {
+    font-weight: normal;
+    color: #777777;
+    font-size: 10px
+}
+
+#mainw #winmain .okno .rowp .memopost, #mainw #winmain .okno .rowp_nahled .memopost, #mainw #winmain .okno .rowp_nove .memopost, #mainw #winmain .okno .rowp1 .memopost, #mainw #winmain .okno .rowp2 .memopost, #mainw #winmain .okno .rowp3 .memopost {
+    color: #aaaaaa;
+    font-size: 10px;
+}
+
+#mainw #winmain .okno .rowp .deletepost, #mainw #winmain .okno .rowp_nahled .deletepost, #mainw #winmain .okno .rowp_nove .deletepost, #mainw #winmain .okno .rowp1 .deletepost, #mainw #winmain .okno .rowp2 .deletepost, #mainw #winmain .okno .rowp3 .deletepost {
+    color: #aaaaaa;
+    font-size: 10px;
+}
+
+#mainw #winmain .okno .rowp .editfr, #mainw #winmain .okno .rowp_nahled .editfr, #mainw #winmain .okno .rowp_nove .editfr, #mainw #winmain .okno .rowp1 .editfr, #mainw #winmain .okno .rowp2 .editfr, #mainw #winmain .okno .rowp3 .editfr {
+    color: #aaaaaa;
+    font-size: 10px;
+}
+
+#mainw #winmain .okno .rowp .replypost, #mainw #winmain .okno .rowp_nahled .replypost, #mainw #winmain .okno .rowp_nove .replypost, #mainw #winmain .okno .rowp1 .replypost, #mainw #winmain .okno .rowp2 .replypost, #mainw #winmain .okno .rowp3 .replypost {
+    color: #aaaaaa;
+    font-size: 10px;
+}
+
+/* MAIL IN */
+#mainw #winmain .okno .rowp1 .nicopost, #mainw #winmain .okno .rowp1 .icopost, #mainw #winmain .okno .rowp1 .txtpost, #mainw #winmain .okno .rowp1 .linkpost .linx, #mainw #winmain .okno .rowp1 .linkpost {
+	border: 0px none;
+	background: #111111;
+}
+
+#mainw #winmain .okno .rowp1 .linkpost {
+    border: 0px none; _border-top: 1px solid #5694BB;
+    background: #111111;
+}
+
+#mainw #winmain .okno .rowp1 .linkpost .linx {
+    border: 0px none;
+    padding-right: 40px;
+    background: #111111;
+}
+
+/* MAIL OUT */
+#mainw #winmain .okno .rowp2 .icopost, #mainw #winmain .okno .rowp2 .txtpost, #mainw #winmain .okno .rowp2 .linkpost .linx, #mainw #winmain .okno .rowp2 .linkpost {
+    border: 0px none;
+    background: #111111;
+}
+
+#mainw #winmain .okno .rowp2 .linkpost {
+	border: 0px none; _border-top: 1px solid #5694BB;
+	background: #111111;
+}
+
+#mainw #winmain .okno .rowp2 .linkpost .linx {
+	border: 0px none;
+	padding-right: 40px;
+  background: #111111;
+}
+
+/* MEMO PRISPEVEK */
+#mainw #winmain .okno .rowp3 .icopost, #mainw #winmain .okno .rowp3 .txtpost, #mainw #winmain .okno .rowp3 .linkpost .linx, #mainw #winmain .okno .rowp3 .linkpost {
+	border: 0px none;
+  background: #111111;
+}
+
+#mainw #winmain .okno .rowp3 .linkpost {
+	border: 0px none; _border-top: 1px solid #5694BB;
+	background: #111111;
+}
+
+#mainw #winmain .okno .rowp3 .linkpost .linx {
+	border: 0px none;
+	padding-right: 40px;
+  background: #111111;
+}
+
+/* NAHLED PRISPEVKU */
+#mainw #winmain .okno .rowp_nahled .icopost, #mainw #winmain .okno .rowp_nahled .txtpost, #mainw #winmain .okno .rowp_nahled .linkpost .linx, #mainw #winmain .okno .rowp_nahled .linkpost, #mainw #winmain .okno .rowp_nove .icopost, #mainw #winmain .okno .rowp_nove .txtpost, #mainw #winmain .okno .rowp_nove .linkpost .linx, #mainw #winmain .okno .rowp_nove .linkpost {
+	border: 0px none;
+  background: #111111;
+}
+
+#mainw #winmain .okno .rowp_nahled .linkpost {
+	border: 0px none; _border-top: 1px solid #5694BB;
+	background: #111111;
+}
+
+#mainw #winmain .okno .rowp_nahled .linkpost .linx {
+    border: 0px none;
+    padding-right: 40px;
+    background: #111111;
+}
+
+#mainw #winmain .okno .rowp_nove .icopost, #mainw #winmain .okno .rowp_nove .txtpost, #mainw #winmain .okno .rowp_nove .linkpost .linx, #mainw #winmain .okno .rowp_nove .linkpost {
+    background: #111111;
+}
+ .rowp_nove {
+    border-left: 3px solid #880000;
+}
+
+#mainw #winmain .okno .rowp_nove .linkpost {
+    border-width: 0px;
+    background: transparent;
+    height: 20px;
+}
+
+#mainw #winmain .okno .rowp_nove .linkpost .linx {
+    border-width: 0px;
+    padding-right: 10px;
+    background: transparent;
+    color: #777777
+}
+#mainw #winmain .okno .rowp_nove .linkpost .linx input {
+    margin-right: 0px 2px 0px 0px;
+}
+
+
+/* PRISPEVKOVE STYLY */
+.nahled {
+  color: #FCE224;
+  font-weight: bold;
+}
+
+.nove {
+  color: #ff0000;
+  font-weight: normal;
+  font-size: 10px;
+}
+
+.nickprisp {
+  color: #cccccc;
+}
+
+.dateprisp {
+  color: #777777;
+}
+
+.linkprisp {
+  color: #aaaaaa;
+}
+
+.linkprisp:hover, .linkprisp.hover, .dateprisp:hover, .dateprisp.hover {
+  color: #aaaaaa;
+}
+
+.zavorka {
+}
+
+/* CSS grafy */
+.cssgraf .dny, .cssgraf .hodnoty {
+  border: 1px solid #aaaaaa;
+  color: #aaaaaa;
+}
+
+.cssgraf .hodnoty {
+}
+
+.cssgraf .tdbar {
+}
+
+.cssgraf .dbar {
+}
+
+.cssgraf .graf {
+  background: url(../images/cssgraf.png) repeat left bottom;
+}
+
+.hlkat, .hlsubkat {
+  font-weight: bold;
+}
+
+/* HOVER OKNO - NAHLED KLUBU, PRISPEVKU, USERA */
+#okno_div {
+  background: #111111;
+  border: 1px solid #aaaaaa;
+}
+
+.colorhover {
+  background: #aaaaaa;
+}
+
+.okno_popis, .okno_text {
+  border: 0px;
+}
+
+#okno_div .linkpost {
+}
+
+#okno_div .linkpost .linx {
+	border: 1px solid #F8E052; border-left: 0px;
+	border-top: 0px;
+}
+
+#okno_div .linkpost .linx .nickpost {
+	font-weight: bold;
+	color: #aaaaaa;
+}
+
+#okno_div .linkpost .linx .datepost {
+	font-weight: bold;
+	color: #aaaaaa;
+}
+
+#okno_div #info {
+  font-weight: bold;
+	color: #aaaaaa;
+}
+
+#okno_div #info2 {
+	font-weight: normal;
+	color: #aaaaaa;
+}
+
+#okno_div .txtpost {
+	border: 0px none;
+}
+
+.okno_text {
+}
+
+.okno_pol {
+}
+
+#okno_ikonka {
+}
+
+/* SEKCE KATEGORIE */
+/* prvni bunky - Obrazek kategorie, odsazeni */
+.hlkat0_0, .hlkat0_0_n {
+}
+.hlkat1_0, .hlkat1_0_n {
+}
+.hlkat2_0, .hlkat2_0_n {
+}
+
+/* TO SAME JEN PRO USERY BEZ OBRAZKU */
+.hlkat0_0_n {
+}
+.hlkat1_0_n {
+}
+.hlkat2_0_n {
+}
+/* Bunky s textama v Kategoriich - Hlavni kat, podkat, Klub */
+.hlkat0_1, .hlkat1_1, .hlkat2_1 {
+}
+.hlkat0_1 {
+}
+.hlkat2_1 {
+}
+.hlkat2_1 .owner {
+}
+.hlkat2_1 .pocet {
+}
+.hlkat2_1 .info {
+}
+.hlkat2_1 .newsp {
+	color: #aaaaaa;
+}
+/* Posledni bunky v kategorii */
+.hlkat0_2, .hlkat1_2, .hlkat2_2 {
+}
+.katimg, .katico {
+}
+
+.katico {
+  border: 1px solid #F8E052;
+}
+
+
+/* RADKY V BOOKU */
+.bookrow {
+    color: #888888;
+    padding: 2px 3px 3px 3px;
+}
+.bookrow a {
+    font-weight: normal;
+}
+.bookrow input {
+    margin-right: 0px 2px 0px 0px;
+}
+/* odkaz do klubu */
+.bookrow .klub {
+}
+/* pocet prispevku v klubu */
+.bookrow .pocet {
+  font-weight: normal;
+  color: #aaaaaa;
+}
+.bookrow .newsp {
+  font-weight: bold;
+  color: #ff0000;
+}
+/* datum zalozeni klubu */
+.bookrow .datum {
+  color: #777777;
+  font-weight: normal;
+}
+.bookrow .info {
+  font-weight: normal;
+  color: #777777;
+}
+/* vlastnik klubu */
+.bookrow .owner {
+  font-weight: normal;
+  color: #888888;
+}
+/* Vlozeni smajlika do textu */
+.smiley {
+  cursor: pointer;
+}
+
+/* MiHo */
+#mainw #winmain .okno_miho {
+  background: transparent;
+}
+
+#mainw #winmain .okno_miho h1 {
+}
+
+#mainw #winmain .okno_miho .nadpis .clubkat {
+    font-size: 10px;
+}
+
+#mainw #winmain .okno_miho .nadpis .clubkat.hover, #mainw #winmain .okno_miho .nadpis .clubkat:hover {
+}
+
+/* ONLINE V KLUBU */
+#mainw #winmain .okno .onlines {
+}
+
+#mainw #winmain .okno .onlines li {
+border: 1px solid #222222;
+}
+
+#mainw #winmain .okno .onlines li>div {
+}
+
+#mainw #winmain .okno .onlines img {
+}
+
+#mainw #winmain .okno .onlines .nick {
+}
+#mainw #winmain .okno .onlines .nick .cas {
+}
+
+.nvoted {
+	color: #aaaaaa;
+}
+.avoted {
+}
+.caps {
+}
+.sloupecl {
+}
+.sloupec {
+}
+.volby {
+}
+.opt {
+}
+.hlas {
+}
+.procent {
+}
+.voters {
+}
+.pollinfo {
+}
+.na {
+  color: #aaaaaa;
+}
+.na:hover {
+  color: #aaaaaa;
+}
+
+/* Vysledky ankety */
+#mainw #winmain .okno .results {
+}
+
+#mainw #winmain .okno .results li {
+}
+
+#mainw #winmain .okno .results li>div {
+}
+
+#mainw #winmain .okno .results .pozice, #mainw #winmain .okno .results .user {
+}
+
+#mainw #winmain .okno .results .user {
+}
+.spaw2toolbar, .spaw2statusbar {
+}
+.spaw2status {
+}
+.ahead {
+  font-weight: bold;
+  color: #000000;
+}
+.hlkatedit {
+  color: #aaaaaa;
+  font-weight: bold;
+}
+/* REKLAMA NA KLUB v KLUBU */
+.rekl_club {
+  border: 1px solid #aaaaaa;
+}
+.rekl_club:hover {
+  border: 1px solid #aaaaaa;
+}
+
+/* PRAVA STRANA INFO */
+#liveinfo {
+    border: 0px solid #aaaaaa;
+    border-top: 0px;
+    font-size: 11px;
+}
+
+#liveinfo .okno {
+    background: #111111;
+    color: #aaaaaa;
+    border: 1px solid #333333;
+}
+
+#liveinfo .okno .nadpis {
+    background: #111111;
+    color: #aaaaaa;
+    border-bottom: 1px solid #333333;
+}
+
+#liveinfo .okno p {
+    background-color: transparent;
+    margin-bottom: 4px;
+}
+#liveinfo .info {
+    color: #707070;
+}
+#liveinfo .newsp {
+    color: #FF0000;
+}
+.linx {
+  color: #101010 !important;
+}
+a.reply, a.reply:hover, a.mail, a.mail:hover, a.link, a.link:hover, a.memopost, a.memopost:hover, a.deletepost, a.deletepost:hover, a.filtr, a.filtr:hover {
+  background-color: #202020;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+a.reply:hover, a.mail:hover, a.link:hover, a.memopost:hover, a.filtr:hover, a.deletepost:hover {
+  background-color: #A0A0A0;
+  color: #000000 !important;
+  text-decoration: none;
+}
+a.reply {
+  background-color: #808080;
+  color: #000000 !important;
+}
+.replyp {
+  color: #F0F0F0;
+}
+.clubkat-nvoted {
+    color: #F0F0F0 !important;
+}
+.clubkat-avoted {
+    color: #808080 !important;
+}
+.txtpost .linkpost, .okno_miho .linkpost, .a-tlink {
+    font-weight: normal;
+    border-bottom: 1px dotted #505050 !important;
+    color: #A0A0A0 !important;
+}
+.txtpost .linkpost:hover, .okno_miho .linkpost:hover, .a-tlink:hover {
+    border-bottom: 1px solid #A0A0A0 !important;
+    text-decoration: none;
+}
+
+a.attach {
+    font-size: 10px;
+    background-color: #A0A0A0;
+    color: #000000 !important;
+    text-decoration: none;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+a.attach:hover {
+    background-color: #AA0000;
+}
